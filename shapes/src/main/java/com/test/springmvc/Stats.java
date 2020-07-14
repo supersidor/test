@@ -9,7 +9,7 @@ public class Stats implements Serializable{
 	private AtomicInteger circle = new AtomicInteger();
 	private AtomicInteger square = new AtomicInteger();
 	private AtomicInteger rectangle = new AtomicInteger();
-	private AtomicInteger elipse = new AtomicInteger();
+	private AtomicInteger ellipse = new AtomicInteger();
 	
 	public int getCircle() {
 		return circle.get();
@@ -32,11 +32,11 @@ public class Stats implements Serializable{
 		return this.rectangle.incrementAndGet();
 	}	
 	
-	public int getElipse() {
-		return elipse.get();
+	public int getEllipse() {
+		return ellipse.get();
 	}
-	public int incrementElipse() {
-		return this.elipse.incrementAndGet();
+	public int incrementEllipse() {
+		return this.ellipse.incrementAndGet();
 	}	
 
 }

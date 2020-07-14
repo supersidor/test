@@ -21,10 +21,11 @@
      <td> <c:out value="${stats.rectangle}"/></td>
    </tr>   
     <tr>
-     <td> <a href="elipse">elipse</a> </td>
-     <td> <c:out value="${stats.elipse}"/></td>
+     <td> <a href="ellipse">ellipse</a> </td>
+     <td> <c:out value="${stats.ellipse}"/></td>
    </tr>   
   </table>	  
+  
 	  
 	</body>
 </html>
